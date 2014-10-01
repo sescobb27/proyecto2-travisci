@@ -9,7 +9,7 @@ import (
 
 const (
         connection_format string  = "user=%s dbname=%s sslmode=disable password=%s host=%s"
-        db_name                   = "ciudad_gourmet"
+        db_name                   = "ps2_db"
 )
 
 func stablishConnection() (*sql.DB, error) {
