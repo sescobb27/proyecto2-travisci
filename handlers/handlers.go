@@ -2,7 +2,7 @@ package handlers
 
 import (
         "encoding/json"
-        "github.com/sescobb27/proyecto-2travisci/models"
+        "github.com/sescobb27/proyecto2-travisci/models"
         "net/http"
 )
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-        . "github.com/sescobb27/proyecto-2travisci/handlers"
+        . "github.com/sescobb27/proyecto2-travisci/handlers"
         "net/http"
 )
 
