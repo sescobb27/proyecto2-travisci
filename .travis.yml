@@ -11,4 +11,8 @@ addons:
 before_script:
   - psql --file=ps2_db.sql -U postgres
 
-script: install.sh
+script: bash install.sh
+
+install:
+  - go get github.com/stretchr/testify/assert
+  - go get github.com/lib/pq
