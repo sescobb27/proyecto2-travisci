@@ -6,5 +6,4 @@ export PGHOST="localhost"
 
 go get github.com/stretchr/testify/assert &&  \
 go get github.com/lib/pq && \
-go get ./... &&\
 go test ./...
